@@ -2,6 +2,8 @@
 
 Washington State DMV MCP — the Department of Licensing's VIN-level electric-vehicle population and its monthly vehicle-registration transaction counts. Keyless.
 
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
+
 Washington has no agency called "the DMV": vehicle registration and driver licensing are run by the **Department of Licensing (DOL)**. Both names appear in the tool descriptions because agents search for "WA DMV".
 
 ## Tools
@@ -45,7 +47,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -62,14 +64,14 @@ Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
 Instead of calling tools directly, you can ask questions in plain English:
 
 ```
-ask_pipeworx({ question: "your question about Washington DMV (Dept of Licensing) data" })
+ask_pipeworx({ question: "your question about Wa Dmv data" })
 ```
 
 The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
