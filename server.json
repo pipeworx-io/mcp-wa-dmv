@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/wa-dmv",
-  "title": "Washington DMV (Dept of Licensing)",
-  "description": "Washington DMV/DOL: VIN-level EV population and monthly vehicle registration transactions",
-  "version": "0.1.0",
+  "title": "Wa Dmv",
+  "description": "Washington State DMV MCP — the Department of Licensing's VIN-level electric-vehicle",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/wa-dmv",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-wa-dmv",

@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-wa-dmv",
-  "version": "0.1.0",
-  "description": "Washington DMV/DOL: VIN-level EV population and monthly vehicle registration transactions",
+  "version": "0.1.1",
+  "description": "Washington State DMV MCP — the Department of Licensing's VIN-level electric-vehicle",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-wa-dmv": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "wa-dmv"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-wa-dmv"
+    "url": "git+https://github.com/pipeworx-io/mcp-wa-dmv.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-c9860bb2a12d1fcdf1be5fc0c5b641b47c61cf6e1a616193b82cf1e01331fad6",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
