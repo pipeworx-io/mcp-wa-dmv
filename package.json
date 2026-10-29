@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-wa-dmv",
-  "version": "0.1.1",
-  "description": "Washington State DMV MCP — the Department of Licensing's VIN-level electric-vehicle",
+  "version": "0.2.0",
+  "description": "Washington State DMV MCP — the Department of Licensing's VIN-level electric-vehicle population file and its monthly vehicle-registration transaction counts. Keyless.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-wa-dmv": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "wa-dmv"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-wa-dmv.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/wa-dmv",
   "pipeworx": {
-    "sourceHash": "v1-c9860bb2a12d1fcdf1be5fc0c5b641b47c61cf6e1a616193b82cf1e01331fad6",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "mode": "gateway",
+    "slug": "wa-dmv",
+    "gatewaySlug": "wa-dmv",
+    "sourceHash": "v1-8dd1c55508e7b5ebb8ab7e8517d58722486b29a1aa608672894f9bc9d50f30db",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
