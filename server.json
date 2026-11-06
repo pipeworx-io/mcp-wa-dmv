@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/wa-dmv",
   "title": "Wa Dmv",
   "description": "Washington State DMV MCP — the Department of Licensing's VIN-level electric-vehicle population…",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/wa-dmv",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-wa-dmv",

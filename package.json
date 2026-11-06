@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-wa-dmv",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Washington State DMV MCP — the Department of Licensing's VIN-level electric-vehicle population file and its monthly vehicle-registration transaction counts. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "wa-dmv",
     "gatewaySlug": "wa-dmv",
-    "sourceHash": "v1-8dd1c55508e7b5ebb8ab7e8517d58722486b29a1aa608672894f9bc9d50f30db",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-fb74f6dd5725465d382efe03a34c7e8caf8b54c6a8a2ec53144a43ae97850a54",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }

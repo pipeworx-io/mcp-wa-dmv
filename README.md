@@ -2,7 +2,7 @@
 
 Washington State DMV MCP — the Department of Licensing's VIN-level electric-vehicle population and its monthly vehicle-registration transaction counts. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1857+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 Washington has no agency called "the DMV": vehicle registration and driver licensing are run by the **Department of Licensing (DOL)**. Both names appear in the tool descriptions because agents search for "WA DMV".
 
@@ -77,7 +77,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1857+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
